@@ -3,21 +3,6 @@
 	<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:anchor="https://anchor.fm/xmlns">
 	<channel>
 		<title><![CDATA[Unschool Pages of Our Lives]]></title>
-    <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "PodcastSeries",
-  "name": "<xsl:value-of select='rss/channel/title'/>",
-  "description": "<xsl:value-of select='rss/channel/description'/>",
-  "url": "<xsl:value-of select='rss/channel/link'/>",
-  "image": "<xsl:value-of select='rss/channel/image/url'/>",
-  "publisher": {
-    "@type": "Organization",
-    "name": "<xsl:value-of select='rss/channel/title'/>"
-  }
-}
-</script>
-
 		<description><![CDATA[Follow a family deeply rooted in unschooling as they share heartwarming stories, daily adventures, and candid discussions that inspire all ages to embrace the freedom of learning through life's experiences.]]></description>
 		<link>http://unschooldiscoveries.com</link>
 		<image>
